@@ -23,9 +23,7 @@ cap = cv2.VideoCapture('m.avi')
 count=0
 area=[(222,118),(194,337),(799,300),(728,112)]
 
-cy1=178
-offset=10
-enter_student=[]
+
 people_count=[]
 while True:
     # Read a frame from the video
